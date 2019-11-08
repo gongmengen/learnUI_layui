@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="learnUI_bean" />
+        <module name="learnUI_common" />
+        <module name="learnUI_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="learnUI_bean" target="1.7" />
+      <module name="learnUI_common" target="1.7" />
+      <module name="learnUI_parent" target="1.7" />
+      <module name="learnUI_web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
